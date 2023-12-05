@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Answer</title>
+    <style>
+        .Box{
+          width: 50px ;
+          height: 50px;  
+          background-color: aqua;
+          border: 1px solid  lightseagreen;
+          text-align: center;
+           
+        }
+        .boxA{
+            position: relative;
+            left: 200px;
+            top: 200px;  
+        }
+        .boxB{
+            position: absolute;
+            left: -30px;
+            bottom: 30px;
+        }
+        .boxC{
+            position: absolute;
+            right: -30px;
+            bottom: 30px;
+        }
+        .boxD{
+            position: absolute;
+            left: -30px;
+            top: 30px;
+        }
+        .boxE{
+            position: absolute;
+            right: -30px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Box boxA">
+        A
+        <div class="Box boxB">
+            B
+        </div>
+        <div class="Box boxC">C</div>
+        <div class="Box boxD">D</div>
+        <div class="Box boxE">E</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Answer</title>
+</head>
+<style>
+    .table{
+        position: relative;
+
+    }
+    .index{
+        position: absolute; 
+        width: 300px;
+        height: 300px;
+        font-size: 50px;
+        color: rgb(148, 42, 42);
+        padding: 5px;
+        text-align: right;
+    }
+    .First{
+        z-index: 3;
+        background-color: chocolate;
+        top: 10px;
+        left: 10px;
+    }
+    .Second {
+  z-index: 2; 
+  background-color: #192733;
+  top: 20px;
+  left: 80px;
+}
+
+.Third {
+  z-index: 1;
+  background-color: #4FB06D;
+  top: 30px;
+  left: 130px;
+
+}
+
+.Four {
+  z-index: 0; 
+  background-color: #ED2D40;
+  top: 40px;
+  left: 180px;
+}
+</style>
+<body>
+       <div class="table">
+        <div class="index First">1</div>
+        <div class="index Second">2</div>
+        <div class="index Third">3</div>
+        <div class="index Four">4</div>
+    </div>
+
+</body>
+</html>
